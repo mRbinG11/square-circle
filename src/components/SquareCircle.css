@@ -1,0 +1,27 @@
+.card {
+    width: 35rem;
+    padding: 2rem 4rem;
+    border-radius: 11px;
+    box-shadow: 5px 5px 10px #888888;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    background-color: yellow;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkgrey;
+}
+
+.circle {
+    background-color: blue;
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
